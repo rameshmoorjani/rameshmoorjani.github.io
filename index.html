@@ -1,105 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ramesh Moorjani — Portfolio</title>
-  <style>
-    body {
-      font-family: 'Inter', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f7fb;
-      color: #111827;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 60px 20px 40px 20px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-      color: #1f2937;
-    }
-    header p {
-      font-size: 1.2em;
-      color: #4b5563;
-      margin: 8px 0 0 0;
-    }
-    header a {
-      margin: 0 12px;
-      color: #2563eb;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    section.project {
-      margin-bottom: 60px;
-    }
-    section.project h2 {
-      font-size: 1.8em;
-      margin-bottom: 8px;
-      color: #111827;
-    }
-    section.project p {
-      font-size: 1.1em;
-      color: #374151;
-      margin-bottom: 16px;
-    }
-    iframe {
-      width: 100%;
-      max-width: 900px;
-      height: 640px;
-      border: 1px solid #d1d5db;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      color: #6b7280;
-      font-size: 0.9em;
-      border-top: 1px solid #e5e7eb;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramesh Moorjani — Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:'Inter',sans-serif;
+margin:0;
+background:#f8fafc;
+color:#1f2937;
+}
+
+/* HERO */
+
+header{
+text-align:center;
+padding:80px 20px;
+background:white;
+border-bottom:1px solid #e5e7eb;
+}
+
+header h1{
+font-size:48px;
+margin:0;
+}
+
+header p{
+margin-top:10px;
+font-size:20px;
+color:#4b5563;
+}
+
+.links{
+margin-top:20px;
+}
+
+.links a{
+margin:0 12px;
+text-decoration:none;
+font-weight:600;
+color:#2563eb;
+}
+
+/* MAIN */
+
+main{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* SECTIONS */
+
+section{
+margin-bottom:60px;
+}
+
+section h2{
+font-size:28px;
+margin-bottom:20px;
+}
+
+/* TECH STACK */
+
+.tech{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.tech span{
+background:#e0e7ff;
+padding:8px 14px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* PROJECT CARDS */
+
+.projects{
+display:grid;
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+.card h3{
+margin-top:0;
+}
+
+iframe{
+width:100%;
+height:600px;
+border:1px solid #e5e7eb;
+border-radius:10px;
+margin-top:15px;
+}
+
+.card a{
+color:#2563eb;
+font-weight:600;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #e5e7eb;
+color:#6b7280;
+font-size:14px;
+}
+
+</style>
 </head>
+
 <body>
-  <header>
-    <h1>Ramesh Kumar</h1>
-    <p>Backend • Full Stack • AI/ML Engineer</p>
-    <p>
-      <a href="https://github.com/rameshmoorjani" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/rmoorjani/" target="_blank">LinkedIn</a>
-    </p>
-  </header>
 
-  <main>
-    <!-- N-Queens Project -->
-    <section class="project">
-      <h2>N-Queens Visualizer</h2>
-      <p>Interactive N-Queens puzzle with real-time algorithm visualization, built using React and TypeScript.</p>
-      <iframe src="https://n-queens-visualizer-rameshmoorjani.vercel.app" title="N-Queens Visualizer"></iframe>
-      <p><a href="https://n-queens-visualizer-rameshmoorjani.vercel.app" target="_blank">Open live app</a></p>
-    </section>
+<header>
 
-    <!-- Example for adding more projects -->
-    <!--
-    <section class="project">
-      <h2>Another Project Name</h2>
-      <p>Short description of project highlighting tech and your contribution.</p>
-      <iframe src="https://yourprojecturl.com" title="Project Name"></iframe>
-      <p><a href="https://yourprojecturl.com" target="_blank">Open live app</a></p>
-    </section>
-    -->
-  </main>
+<h1>Ramesh Kumar Moorjani</h1>
 
-  <footer>
-    © 2025 Ramesh Moorjani — All rights reserved
-  </footer>
+<p>Senior Backend Engineer • Full Stack • AI/ML Developer</p>
+
+<div class="links">
+<a href="https://github.com/rameshmoorjani" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/rmoorjani/" target="_blank">LinkedIn</a>
+</div>
+
+</header>
+
+
+<main>
+
+<section>
+<h2>About</h2>
+<p>
+Backend engineer with 18+ years experience building scalable systems using Java, Node.js, Golang and cloud platforms.
+Currently focusing on AI/ML systems using Python, FastAPI and TensorFlow.
+</p>
+</section>
+
+
+<section>
+
+<h2>Tech Stack</h2>
+
+<div class="tech">
+<span>Java</span>
+<span>Golang</span>
+<span>Node.js</span>
+<span>Python</span>
+<span>React</span>
+<span>GraphQL</span>
+<span>FastAPI</span>
+<span>AWS</span>
+<span>TensorFlow</span>
+<span>Machine Learning</span>
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Featured Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>N-Queens Visualizer</h3>
+
+<p>
+Interactive N-Queens puzzle with real-time algorithm visualization built with React and TypeScript.
+</p>
+
+<iframe src="https://n-queens-visualizer-rameshmoorjani.vercel.app"></iframe>
+
+<p>
+<a href="https://n-queens-visualizer-rameshmoorjani.vercel.app" target="_blank">
+Open Live App →
+</a>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+© 2025 Ramesh Kumar Moorjani
+
+</footer>
+
 </body>
 </html>
